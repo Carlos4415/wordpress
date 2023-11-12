@@ -1,0 +1,132 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.swiper-content {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.site-below-footer-wrap[data-section="section-below-footer-builder"] {
+    height: 40px;
+}
+
+.woocommerce-MyAccount-navigation {
+    display: none;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+    width: 100% !important;
+}
+
+.icones-minha-conta > div {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    padding-top: 15px !important;
+    padding-bottom: 10px !important;
+}
+
+.avatar-24 {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+/*
+span.ast-on-card-button.ast-onsale-card {
+    display: none !important;
+}
+*/
+
+.widgettitle {
+    font-size: 20px !important;
+}
+
+.yes-js.js_active .ast-plain-container.ast-single-post #primary {
+    margin: 0 !important;
+}
+
+a.remove_from_wishlist button {
+    margin-left: 100px !important;
+}
+
+#yith-wcwl-form .product_type_simple {
+	padding-right: 20px !important;
+}
+
+.fa {
+    font-family: "FontAwesome" !important;
+}
+
+.copy-target {
+    width: 100% !important;
+}
+
+@media (max-width: 480px) {
+    .yes-js.js_active .ast-plain-container.ast-single-post #primary {
+        padding: 0 !important;
+    }
+    
+    input#coupon_code.input-text {
+        width: 50% !important;
+    }
+
+    button.button {
+        width: 50%% !important;
+    }    
+
+    .value {
+        text-align: left !important;
+    }
+    
+    .additional-info {
+        padding-left: 75px !important;
+    }
+    
+    .label {
+        width: 82px !important;
+    }
+
+    .product-remove {
+        text-align: center !important;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 820px) {
+
+    .value {
+        text-align: left !important;
+    }
+
+    .additional-info {
+        padding-left: 75px !important;
+    }
+
+    .label {
+        width: 250px !important;
+    }    
+
+    .product-remove {
+        text-align: center !important;
+    }    
+
+    input#coupon_code.input-text {
+        width: 100% !important;
+    }    
+
+    button.button {
+        width: 100% !important;
+    }
+
+}
+
+.uagb-container-inner-blocks-wrap {
+    display: inline !important;
+}

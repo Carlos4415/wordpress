@@ -1,0 +1,16 @@
+
+/*= Lista de Desejos ========== */
+
+/** Lista de Desejos >> Remove from wishlist **/
+.product-add-to-cart .remove_from_wishlist {
+	padding-right: 10px !important;
+	padding-left: 100px !important;
+	margin-right: 10px !important;
+	margin-left: 100px !important;
+}
+
+/** Lista de Desejos >> Attachment woocommerce thumbnail **/
+#yith-wcwl-form .attachment-woocommerce_thumbnail {
+	padding-right: 20px !important;
+}
+

@@ -1,0 +1,40 @@
+2023-10-15T15:48:42+00:00 CRITICAL syntax error, unexpected token "}", em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 112
+
+2023-10-15T15:49:46+00:00 CRITICAL Unclosed '{' on line 77, em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 142
+
+2023-10-15T15:51:15+00:00 CRITICAL Uncaught Error: Call to undefined function setTimeout() in C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php:74
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(310): {closure}('')
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\loja-virtual\wp-settings.php(632): do_action('init')
+#4 C:\xampp\htdocs\loja-virtual\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\loja-virtual\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\loja-virtual\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\loja-virtual\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 74
+
+2023-10-15T15:51:55+00:00 CRITICAL syntax error, unexpected token "const", em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 74
+
+2023-10-15T15:52:12+00:00 CRITICAL syntax error, unexpected token "const", em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 74
+
+2023-10-15T19:30:33+00:00 CRITICAL syntax error, unexpected token "}", em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 130
+
+2023-10-15T19:35:11+00:00 CRITICAL syntax error, unexpected identifier "print_r", em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 138
+
+2023-10-15T19:39:09+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_cart() in C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php:64
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(310): {closure}('')
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\loja-virtual\wp-settings.php(632): do_action('init')
+#4 C:\xampp\htdocs\loja-virtual\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\loja-virtual\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\loja-virtual\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\loja-virtual\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 64
+
+2023-10-15T22:11:29+00:00 CRITICAL Unterminated comment starting line 70, em C:\xampp\htdocs\loja-virtual\wp-content\themes\astra-child\functions.php, na linha 70
+

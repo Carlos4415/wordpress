@@ -1,0 +1,214 @@
+2023-11-12T13:47:39+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:47:55+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:48:08+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:48:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:52:46+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:53:54+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:56:01+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T13:58:55+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:00:46+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:01:47+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:09:11+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1494): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1868): WP_Rewrite->wp_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:11:30+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:11:38+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:11:39+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:12:16+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:19:00+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:20:07+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1509): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1884): WP_Rewrite->refresh_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:25:05+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1494): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1868): WP_Rewrite->wp_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\rewrite.php(282): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-admin\admin.php(40): flush_rewrite_rules()
+#5 C:\xampp\htdocs\loja-virtual\wp-admin\index.php(10): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
+2023-11-12T14:25:07+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: int & string in C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php:1046
+Stack trace:
+#0 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1307): WP_Rewrite->generate_rewrite_rules('/%year%/%monthn...', 1)
+#1 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1494): WP_Rewrite->rewrite_rules()
+#2 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php(1868): WP_Rewrite->wp_rewrite_rules()
+#3 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(310): WP_Rewrite->flush_rules(true)
+#4 C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\loja-virtual\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\loja-virtual\wp-settings.php(654): do_action('wp_loaded')
+#7 C:\xampp\htdocs\loja-virtual\wp-config.php(99): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\loja-virtual\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\loja-virtual\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\loja-virtual\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown, em C:\xampp\htdocs\loja-virtual\wp-includes\class-wp-rewrite.php, na linha 1046
+
