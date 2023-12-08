@@ -1,4 +1,4 @@
-version: '3.1'
+version: '3.8'
 
 services:
 
@@ -9,34 +9,36 @@ services:
     ports:
       - 80:80
     environment:
-      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: bbq_restaurant
       WORDPRESS_DB_PASSWORD: bbq_restaurant
       WORDPRESS_DB_NAME: bbq_restaurant
     volumes:
-      - ./wordpress:/var/www/html
+      - ./wordpress:/var/www/html  # Mapeamento do volume local para o diretório do WordPress
+    depends_on:
+      - mysql
 
-  db:
+  mysql:
     image: mysql
-    container_name: db
-    restart: always
-    ports:
-      - 3306:3306      
+    container_name: mysql
+    restart: always  
     environment:
       MYSQL_DATABASE: bbq_restaurant
       MYSQL_USER: bbq_restaurant
       MYSQL_PASSWORD: bbq_restaurant
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
-      - ./db:/var/lib/mysql
+      - ./mysql:/var/lib/mysql  # Mapeamento do volume local para o diretório do MySQL
 
   adminer:
     image: adminer
     container_name: adminer
     restart: always
     ports:
-      - 8080:8080      
+      - 8080:8080  
+    depends_on:
+      - mysql    
 
 volumes:
-  wordpress:
-  db:
+  wordpress:  # Definição do volume para o WordPress
+  mysql:      # Definição do volume para o MySQL

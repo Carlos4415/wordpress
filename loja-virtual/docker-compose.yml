@@ -1,7 +1,6 @@
-version: '3.1'
+version: '3.8'
 
 services:
-
   wordpress:
     image: wordpress
     container_name: wordpress
@@ -9,34 +8,34 @@ services:
     ports:
       - 80:80
     environment:
-      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: loja_virtual
       WORDPRESS_DB_PASSWORD: loja_virtual
       WORDPRESS_DB_NAME: loja_virtual
     volumes:
-      - ./wordpress:/var/www/html
+      - ./wordpress:/var/www/html  # Mapeamento do volume local para o diretório do WordPress
 
-  db:
+  mysql:
     image: mysql
-    container_name: db
+    container_name: mysql
     restart: always
     ports:
-      - 3306:3306      
+      - 3306:3306
     environment:
       MYSQL_DATABASE: loja_virtual
       MYSQL_USER: loja_virtual
       MYSQL_PASSWORD: loja_virtual
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
     volumes:
-      - ./db:/var/lib/mysql
+      - ./mysql:/var/lib/mysql  # Mapeamento do volume local para o diretório do MySQL
 
   adminer:
     image: adminer
     container_name: adminer
     restart: always
     ports:
-      - 8080:8080      
+      - 8080:8080
 
 volumes:
-  wordpress:
-  db:
+  wordpress:  # Definição do volume para o WordPress
+  mysql:      # Definição do volume para o MySQL
